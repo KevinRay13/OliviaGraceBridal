@@ -2,13 +2,14 @@ import React, { Component } from 'react'
 import Image from '../components/Image'
 
 import './InstagramFeed.css'
+import TOKEN from '../../Tokens'
 
 // A quick way to get your access token
 // https://instagram.pixelunion.net/
 
 export default class InstagramFeed extends Component {
   static defaultProps = {
-    accessToken: '248020486.1677ed0.e322f1b1a7b04286b83bc92b8e926193',
+    accessToken: TOKEN,
     count: 20
   }
 
