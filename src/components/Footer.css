@@ -1,0 +1,43 @@
+.footer {
+  font-family: 'Muli', sans-serif;
+  padding: 2rem 0;
+  background: var(--lightGrey);
+  font-size: 1.2rem;
+}
+.footerBody {
+  font-family: 'Muli', sans-serif;
+}
+.taCenter {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  color: var(--midGrey);
+}
+.aTag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* margin: 0 auto; */
+}
+.ul {
+  display: flex;
+  height: 7rem;
+  width: 80rem;
+  opacity: 0.2;
+  margin-bottom: 0.2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.spacer {
+  margin-right: 0.5em;
+}
+.igLogo {
+  height: 7rem;
+  margin-right: 1em;
+}
+.footer a {
+  font-family: 'Muli', sans-serif;
+  color: black;
+  text-decoration: none;
+}
